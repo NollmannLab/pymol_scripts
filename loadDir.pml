@@ -4,7 +4,14 @@
 #@author: marcnol
 
 # loads dir and plots all pdb on it
+
+# to run:
+# run /home/marcnol/Repositories/pymol-scripts/loadDir.pml
+
+# loads dependencies
 run /home/marcnol/Repositories/pymol-scripts/loadDir.py
+
+# loads PDB files
 loadDir /home/marcnol/data/traces/PDBs, pdb, limit=49
 
 # puts all PDBs in grid
