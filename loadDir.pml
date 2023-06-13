@@ -6,13 +6,15 @@
 # loads dir and plots all pdb on it
 
 # to run:
-# run /home/marcnol/Repositories/pymol-scripts/loadDir.pml
+# run /home/marcnol/Repositories/pymol_scripts/loadDir.pml
 
 # loads dependencies
-run /home/marcnol/Repositories/pymol-scripts/loadDir.py
+reinitialize
+run /home/marcnol/Repositories/pymol_scripts/loadDir.py
 
 # loads PDB files
-loadDir /home/marcnol/data/traces/PDBs, pdb, limit=49
+# loadDir /home/marcnol/data/traces/PDBs, pdb, limit=49
+loadDir /mnt/PALM_dataserv/DATA/Olivier/Thesis/Mouse_project/Test_3D_plot/PDBs, pdb, limit=49
 
 # puts all PDBs in grid
 set grid_mode,1
@@ -31,4 +33,5 @@ show spheres
 set stick_radius, 0.15, (all)
 set sphere_scale, 0.15, (all)
 
+zoom 1/
 

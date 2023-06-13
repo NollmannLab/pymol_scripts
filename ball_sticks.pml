@@ -10,5 +10,5 @@ hide lines
 show sticks
 show spheres
 set stick_radius, 0.1, (all)
-set sphere_scale, 0.25, (all)
+set sphere_scale, 0.15, (all)
 
